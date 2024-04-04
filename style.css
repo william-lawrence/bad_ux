@@ -1,0 +1,36 @@
+.fraction {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+}
+
+.fraction-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.numerator,
+.denominator {
+  display: block;
+  text-align: center;
+}
+
+.correct {
+  color: green;
+  border-color: green !important;
+}
+
+.incorrect {
+  color: red;
+  border-color: red !important;
+}
+
+.separator {
+  border-top: 2px solid black;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
